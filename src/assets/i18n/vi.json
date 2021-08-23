@@ -1,0 +1,13 @@
+{
+  "home": {
+    "title": "QLCV",
+    "content": "",
+    "message": ""
+  },
+  "filter-btn":{
+    "all": "Tất cả",
+    "active": "Chưa hoàn thành",
+    "completed": "Đã hoàn thành"
+  }
+
+}

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "manager-job-dl": {
+      "hosting": {
+        "todo-app": [
+          "manager-job-dl"
+        ]
+      }
+    }
+  }
+}

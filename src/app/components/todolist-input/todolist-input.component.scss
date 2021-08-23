@@ -1,0 +1,21 @@
+
+input{
+  outline: none;
+  border: none;
+  font-size: 16px;
+  width: 100%;
+}
+.icon-wrapper{
+  i.eva{
+    display: block !important;
+  }
+}
+::placeholder{
+  color: rgba(0, 0, 0, 0.5);
+  opacity: 0.5;
+  font-size: 16px;
+}
+.form-control:focus{
+  box-shadow: none !important;
+}
+

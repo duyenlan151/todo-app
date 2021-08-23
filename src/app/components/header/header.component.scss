@@ -1,0 +1,18 @@
+app-todolist-input{
+  width: 100%;
+}
+.icon-wrapper{
+  line-height: 45px;
+  font-size: 40px;
+  color: grey;
+  background: white;
+  cursor: pointer;
+  transition: all 0.5s linear;
+
+  &:hover{
+    color: black;
+  }
+}
+.icon-collapsed{
+  transform: rotate(180deg);
+}

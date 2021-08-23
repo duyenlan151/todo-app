@@ -1,0 +1,12 @@
+{
+  "home": {
+    "title": "Todo App",
+    "content": "",
+    "message": ""
+  },
+  "filter-btn":{
+    "all": "All",
+    "active": "Active",
+    "completed": "Completed"
+  }
+}

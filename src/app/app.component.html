@@ -1,0 +1,24 @@
+
+<div class="wrapper d-flex flex-column align-items-center container">
+  <div class="language">
+    <select name="" id="" #langselect (change)="onChangeLang(langselect.value)">
+      <option *ngFor="let lang of _translateService.getLangs()" [value]="lang">{{ lang }}</option>
+    </select>
+  </div>
+  <h1 class="title">{{ 'home.title' | translate}}</h1>
+  <div class="row justify-content-center w-100">
+    <div class="todo-wrapper p-0 d-flex flex-column col-md-8 col-xs-6">
+      <app-header [isCollapsed]="isCollapsed" (onCollapsedEvent)="handleCollapsed()"></app-header>
+      <app-todolist-list *ngIf="isCollapsed"></app-todolist-list>
+      <app-footer></app-footer>
+      <!-- {{ message | async | json }} -->
+    </div>
+  </div>
+  <small class='instruction text-center'>
+    <em>Press Enter to add new todo. Press Arrow icon to toggle todos</em>
+    <br>
+    Copyright TodosMVC Project - Duyen Lan
+  </small>
+</div>
+
+<div [defaultImage]="defaultImage" [lazyLoad]="image"></div>

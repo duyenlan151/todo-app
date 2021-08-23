@@ -1,0 +1,36 @@
+@import "./../../node_modules/bootstrap/dist/css/bootstrap.min.css";
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+  & .title{
+    color: rgba(175, 47, 47, 0.2);
+    font-size: 100px;
+    padding: 30px 0;
+    font-weight: 100;
+    @media screen and (max-width: 768px) {
+      font-size: 50px;
+    }
+  }
+
+  & .instruction{
+    color: #bfbfbf;
+    padding: 30px 0;
+    margin-top: auto;
+  }
+  & .todo-wrapper{
+    box-shadow: 0 2px 4px 0 rgb(0, 0 , 0, 0.2),
+                0 25px 50px 0 rgb(0, 0 , 0, 0.1);
+    background: white;
+
+    & app-header{
+      padding: 7px 10px;
+    }
+  }
+}
